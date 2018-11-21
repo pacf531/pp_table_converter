@@ -1,0 +1,10 @@
+[package]
+name = "pp_table_converter"
+version = "0.1.0"
+authors = ["pacf531"]
+
+[dependencies]
+hex = "^0.3.2"
+
+[profile.release]
+lto = true
